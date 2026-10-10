@@ -77,8 +77,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     ),
                     const SizedBox(height: 8),
                     Text(
-                      'Use the local account on this device. '
-                      'Nothing is sent to a server.',
+                      'Sign in with your username and password to continue.',
                       style: theme.textTheme.bodyMedium?.copyWith(
                         color: theme.colorScheme.onSurfaceVariant,
                       ),
